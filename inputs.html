@@ -8,12 +8,23 @@
 	<P> do u prefer cats or dogs ?</P>
 
 	<form>
+
 		<label for="dogs">Dogs: </label>
-		<input id="dogs" type="radio">
+		<input name="pet" id="dogs" type="radio" value="dogs">
 
 
 		<label for="cats">Cats</label>
-		<input id="cats" type="radio">
+		<input name="pet" id="cats" type="radio" value="cats">
+
+		<p>what's your current mood?</p>
+		<select name="mood">
+			<option value="sad">:(</option>
+			<option value="neutral">:|</option>
+			<option value="happy">:)</option>
+		</select>
+
+		<button>Enviar</button>
+
 	</form>
 
 </body>
