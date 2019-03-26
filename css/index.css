@@ -1,9 +1,16 @@
 body{
-	background: yellow;
+	background: url(https://webgameapp.com/web/wallpapers/mr-robot-wallpaper/thumbnail/lg.jpg);
+	
+	/* nao repete a imagem na tela */
+	background-repeat: no-repeat;
+
+	/* cobre toda a tela */
+	background-size: cover;
 }
 
 h1{
 	color: grey;
+	border: 1px green dashed;
 }
 
 h3{
