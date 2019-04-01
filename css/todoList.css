@@ -15,3 +15,13 @@ li{
 	color:green;
 	background-color:#000;
 }
+
+h4 + ul li{
+	color:green;
+}
+
+/* this is new */
+a[href="https://google.com.br"]{
+	color:red;
+	background:purple;
+}
