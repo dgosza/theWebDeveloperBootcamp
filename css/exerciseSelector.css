@@ -27,12 +27,14 @@ li{
 
 /*Change the background on every paragraph to be yellow*/
 
-
+p{
+    background:yellow;
+}
 
 /*Make all inputs have a 3px red border*/
 
 input{
-    border: 3px red;
+    border: 3px solid red;
 }
 
 /* Give everything with the class 'hello' a white background*/
@@ -55,16 +57,28 @@ div p{
 
 /*Make only inputs with type 'text' have a gray background*/
 
-
+input[type="text"]{
+    background: gray;
+}
 
 /* Give both <p>'s inside the 3rd <div> a pink background*/
 
+div:nth-of-type(3) p{
+    background:pink
+}
 
 /* Give the 2nd <p> inside the 3rd <div> a 5px white border*/
 
+div:nth-of-type(3) :nth-of-type(2){
+    border: 5px solid white;
+}
 
 /* Make the <em> in the 3rd <div> element white and 20px font(font-size:20px)*/
 
+div:nth-of-type(3) em{
+    font-size: 20px;
+    color: white;
+}
 
 
 /*BONUS CHALLENGES*/
