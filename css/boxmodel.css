@@ -1,0 +1,18 @@
+p{
+    width:50%;
+    border: 2px solid blue;
+
+    /* espaço dentro da box */
+    padding-left: 30px; 
+
+    /* espaço fora da box */
+    /* margin:100px; */
+    
+    /* usando a mesma margin para passar valores */
+    /* ORDEM PARA USAR */
+    /* TOP, RIGHT, BOTTOM, LEFT */
+    /* margin: 100px 10px 10px 30px; */
+
+    margin: 0 auto 0 auto;
+
+}
