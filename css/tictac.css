@@ -2,3 +2,13 @@ h1{
     width:200px;
     margin: 0 auto 0 auto;
 }
+
+table{
+    margin: 0 auto 0 auto
+}
+table tbody tr td{
+
+    width: 100px;
+    height: 100px;
+    background-color:red
+}
