@@ -1,17 +1,16 @@
 h1{
     width:200px;
-    margin: 0 auto 0 auto;
+    margin: 0 auto 0 565px;;
 }
 
 table{
     margin: 0 auto 0 auto
 }
-table tbody tr td{
 
+table tbody tr td{
     width: 100px;
     height: 100px;
 }
-
 
 #role2{
     border-right: solid 1px black;
@@ -32,9 +31,7 @@ table tbody tr td{
     border-bottom: solid 1px black;
 }
 
-
 #role8{
     border-left: solid 1px black;
     border-right: solid 1px black;
-
 }
