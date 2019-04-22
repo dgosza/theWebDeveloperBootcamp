@@ -3,3 +3,14 @@ img{
     float:left;
     margin: 1.66%;
 }
+
+p{
+    margin: 1.66%;
+    font-family: 'Oswald', sans-serif;
+    font-size:25px;
+    font-weight: 400;
+    text-transform: uppercase;
+    border-bottom: 1px solid grey;
+    width: 30%;
+    padding-bottom: 30px;
+}
